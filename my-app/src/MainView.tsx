@@ -9,12 +9,14 @@ function App() {
   return (
     <>
     <style>
-
+@import url('https://fonts.googleapis.com/css2?family=Instrument+Sans:ital,wght@0,400..700;1,400..700&display=swap');
 </style>
+
       <div style={{ display: 'flex', justifyContent: 'center', alignItems: 'center', height: '100vh'}}>
-        <div style={{display: 'flex', justifyContent: 'center', alignItems: 'center', backgroundColor: 'white', height: '75%', width: '75%', borderRadius: '0px'}}>
-          <p className='jost-test'> TEST </p>
-        </div>
+      
+          
+          <p className='instrument-sans-header'> TEST </p>
+        
       </div>
     </>
   )
