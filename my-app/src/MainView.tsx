@@ -9,12 +9,17 @@ function App() {
 
   return (
     <>
+   
    <style>
-@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap');
 </style>
-      <div style={{display: 'flex', flexDirection: 'column', width: 'fit-content'}}>
-        <Menu></Menu>
+
+<div className='app'>
+      <div style={{display:'flex', justifyContent:'center', alignItems:'center', width:'100vw', height:'100vh'}}>
+       <Menu></Menu>
       </div>
+</div>
+
         
     
     </>
